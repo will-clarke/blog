@@ -8,7 +8,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : wmmc's blog - William Clarke
+title : william clarke's blog - wmmc
 tagline: wmmc's blog - William Clarke. Clever Tag line or something.
 author :
   name : William Clarke
@@ -17,6 +17,8 @@ author :
   twitter : wmmclarke
   feedburner : feedname
 
+gems:
+ - jekyll-sitemap
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -82,7 +84,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : wmmc
     livefyre :
       site_id : 123
     intensedebate :
