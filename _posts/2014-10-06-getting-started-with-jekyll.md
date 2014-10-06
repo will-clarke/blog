@@ -3,9 +3,7 @@ layout: post
 title: "Getting Started With Jekyll"
 published: true
 tags: [Ruby, Jekyll, Blog]
-tagline: "Create An Ultra Efficient Blog"
 ---
-# Getting Started With Jekyll
 
 I have been told that it's good to write a blog. Something about self-promotion and helping other people...
 

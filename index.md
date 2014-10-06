@@ -5,16 +5,18 @@ tagline: wmmc.github.io
 ---
 {% include JB/setup %}
 
-# Hello. Welcome to my blog
+## Welcome to my Blog!
+
+This is where I jot down computery-related ideas about projects that I'm doing.
+Hopefully something may be useful to someone...
+
+If you want to learn more about me, you should go to my [colourful and narcissistic site.](http://wmmclarke.com)
+
+
+#### Some of my recent posts:
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
