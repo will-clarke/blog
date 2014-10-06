@@ -60,7 +60,11 @@ To create new pages.
 
 ## There you have it - a free, fully functioning static blog set up in only a few minutes!
 
+___
+___
+
 Here are a few more tips I recommend to make it even easier to use Jekyll and Markdown.
+
 
 #### Using Jekyll with Vim
 
