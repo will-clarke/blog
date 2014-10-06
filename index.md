@@ -5,12 +5,12 @@ tagline: wmmc.github.io
 ---
 {% include JB/setup %}
 
-## Welcome to my Blog!
+## Welcome!
 
 This is where I jot down computery-related ideas about projects that I'm doing.
 Hopefully something may be useful to someone...
 
-If you want to learn more about me, you should go to my [colourful and narcissistic site.](http://wmmclarke.com)
+If you want to learn more about _me_, you should go to my [colourful and narcissistic site.](http://wmmclarke.com)
 
 
 #### Some of my recent posts:

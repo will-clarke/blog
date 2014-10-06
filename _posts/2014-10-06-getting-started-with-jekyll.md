@@ -13,7 +13,7 @@ I originally wanted to create something through rails, but, having thought about
 
 Jekyll's main selling point is that it integrates text files well into a static site.
 
-It's simple to use and set up:
+It's simple to use and set up out of the box:
 
     ~ $ gem install jekyll
     ~ $ jekyll new my-awesome-site
@@ -21,12 +21,14 @@ It's simple to use and set up:
     ~/my-awesome-site $ jekyll serve
     # => Now browse to http://localhost:4000
 
+If you're lazy, I'd recommend not doing this, though. Jekyll Bootstrap, discussed below, has a few more features that may be useful.
+
 
 ## Jekyll Bootstrap
 
 [Jekyll Bootstrap](http://jekyllbootstrap.com/) uses Twitter's [bootstrap](http://getbootstrap.com/) and includes a number of extra in-build functionality including clever rake tasks, themes and comments.
 
-Here's a good starting point: [Jekyll Bootstrap Quick Start Guide](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Here's a really good starting point: [_Jekyll Bootstrap Quick Start Guide_](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 
 One of the great things about Jekyll Bootstrap is that it integrates well with [Github Pages](https://pages.github.com/).  This lets you host your own site for _FREE_! You get the custom domain of _your_github_username_.github.io.
@@ -56,8 +58,11 @@ To create new posts or
     $ rake page name="about.md"
 To create new pages.
 
+## There you have it - a free, fully functioning static blog set up in only a few minutes!
 
-## Using Jekyll with Vim
+Here are a few more tips I recommend to make it even easier to use Jekyll and Markdown.
+
+#### Using Jekyll with Vim
 
 There's a great [vim plugin](https://github.com/csexton/jekyll.vim) for jekyll. This lets you, anywhere in the file structure, to access your current posts or to create a new one.
 
@@ -65,7 +70,7 @@ There's a great [vim plugin](https://github.com/csexton/jekyll.vim) for jekyll. 
     map <Leader>jn  :JekyllPost<CR>
     map <Leader>jl  :JekyllList<CR>.
 
-## Ultra fancy Markdown editing.
+#### Ultra fancy Markdown editing.
 
 I use [Marked 2](http://marked2app.com/), which is a fairly slick markdown live previewer.
 You can call it straight from vim using this mapping in your .vimrc:
