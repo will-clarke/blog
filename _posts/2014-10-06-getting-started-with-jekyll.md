@@ -9,7 +9,7 @@ tagline: "Create An Ultra Efficient Blog"
 
 I have been told that it's good to write a blog. Something about self-promotion and helping other people...
 
-I originally wanted to create something throuhg rails, but, having thought about it, it would have taken a while to set everything up correctly. No need to reinvent the wheel...
+I originally wanted to create something through rails, but, having thought about it, it would have taken a while to set everything up correctly. No need to reinvent the wheel...
 
 [Jekyll](http://jekyllrb.com/) is a blogging / website platform built with Ruby. It's what I would have aimed to build, only simpler, more efficient, pre-built  and  with an active community behind it.
 
@@ -74,7 +74,7 @@ You can call it straight from vim using this mapping in your .vimrc:
 
     noremap <leader>md :!open -a 'Marked 2' %<cr><cr>
 
-(Assuming your're on OS X)
+(Assuming you're on OS X)
 
 
 ___
