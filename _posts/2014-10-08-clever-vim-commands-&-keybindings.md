@@ -51,26 +51,30 @@ The whole point of Vim is that it's easy to define the shortcuts you like. Well.
 - <CR> stands for carriage return (enter)
 
 Using this we can make a mapping like this:
-`noremap <leader>md :!open -a 'Marked 2' %<cr><cr>`
-`noremap <Leader>oc :!open /Applications/Google\ Chrome.app %<CR>`
+
+    noremap <leader>md :!open -a 'Marked 2' %<cr><cr>
+    noremap <Leader>oc :!open /Applications/Google\ Chrome.app %<CR>
 
 The `:` key is obviously important for Vim commands. The `;` key is less important. Swap them!
-`noremap ; :`
-`noremap : ;`
+
+    noremap ; :
+    noremap : ;
 
 `jk` can be a fast way of returning back to normal mode
-`imap jk <ESC>`
+
+    imap jk <ESC>
 
 Sometimes you can't save a file. Something about an E212 error. Force it with this:
-`ca w!! w !sudo tee "%"`
+
+    ca w!! w !sudo tee "%"
 
 Shortcuts to save and quit:
-`inoremap <silent> <C-q> <ESC>:q<CR><ESC>`
-`nnoremap <silent> <C-q> :q<CR>`
-`noremap  <C-s>    :update<CR><ESC>`
-`vnoremap  <C-s>   <C-C>:update<CR><ESC>`
-`inoremap  <C-s>   <C-O>:update<CR><ESC>`
 
+    inoremap <silent> <C-q> <ESC>:q<CR><ESC>
+    nnoremap <silent> <C-q> :q<CR>
+    noremap  <C-s>    :update<CR><ESC>
+    vnoremap  <C-s>   <C-C>:update<CR><ESC>
+    inoremap  <C-s>   <C-O>:update<CR><ESC>
 
 This vim function lets you toggle Solarized background colour within the editor.
 
@@ -79,4 +83,5 @@ This vim function lets you toggle Solarized background colour within the editor.
     endfunction
 
 This lowers the timeout:
-`set timeoutlen=500`
+
+    set timeoutlen=500
