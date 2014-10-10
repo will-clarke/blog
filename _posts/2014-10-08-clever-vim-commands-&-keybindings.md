@@ -5,7 +5,6 @@ published: true
 tags: [Vim, Editor]
 ---
 
-
 I have recently spent a while trying to learn how to edit text effectively. I figure that if I'm going to be spending a while editing text, it's worth learning how to do it as efficiently as possible.
 
 I've been using [YADR](https://github.com/skwp/dotfiles) as a basis for my dotfiles. Dotfiles, if you don't know, are files which start with a fullstop (and therefore are hidden in UNIX systems). Dotfiles mostly refer to configuration files in the home directory - eg. `.bashrc` or  `.vimrc`. One of the benefits of using a monolithic package like this is it quickly lets you do more cool stuff as you're learning (over boring native Vim).
