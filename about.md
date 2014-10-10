@@ -6,9 +6,11 @@ group: navigation
 ---
 {% include JB/setup %}
 
-# Links for everyone!
+## Links for everyone!
 
 ### - [Github](http://github.com/wmmc)
+
+### - [Website](http://wmmclarke.com)
 
 ### - [Email](mailto:wmmclarke@gmail.com)
 
