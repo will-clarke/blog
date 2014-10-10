@@ -5,11 +5,11 @@ published: true
 tags: [DNS, Heroku, 123-reg]
 ---
 
-When I registered my website [wmmclarke.com](http://wmmclarke.com), I had no idea what a DNS was. According to [wikipedia](http://en.wikipedia.org/wiki/Domain_Name_System), `The Domain Name Sysstem (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network`. Not exactly simple...
+When I registered my website [wmmclarke.com](http://wmmclarke.com), I had no idea what a DNS was. According to [wikipedia](http://en.wikipedia.org/wiki/Domain_Name_System), _the Domain Name Sysstem (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network_. Not exactly immediately obvious...
 
 The most common analogy for DNS records is probably a _phonebook_, which translates  addresses that computers like (93.184.216.119) to addresses that humans like (wikipedia.org).
 
-See my [post about IP addresses](/_posts/2014-10-10-an-quick-introduction-to-ip-addresses.md).
+See my [post about IP addresses](/2014/10/10/a-quick-introduction-to-ip-addresses/).
 
 This link is especially good at dealing with [what happens when you navigate to a URL](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/).
 
