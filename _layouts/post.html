@@ -7,6 +7,20 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
+
+
+<div class="message"><strong style="font-size:1.5em;">Tags</strong>
+{% unless page.tags == empty %}
+  <ul class="tag_box inline">
+    {% assign tags_list = page.tags %}
+    {% include tags.html %}
+  </ul>
+</div>
+{% endunless %}  
+
+
+
+
 {% include disqus.html %}
 <div class="related">
   <h2>Related Posts</h2>
