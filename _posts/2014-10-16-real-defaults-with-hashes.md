@@ -5,7 +5,7 @@ published: true
 tags: [Ruby, Hash, Tips]
 ---
 
-### Beware of setting Hash#Default!
+### Beware of setting Hash#default!
 
 Unless you know the pitfalls of Hash#default, you should tread carefully...
 
