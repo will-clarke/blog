@@ -101,7 +101,9 @@ These are sorted by 'difficulty' - you should know the first ones first.
 
 `grep`
 I've written a quick primer on UNIX file permissions [here]({{ site.url }}/_posts/2014-10-18-unix-permissions.md)
-Grep's a fairly big topic.
+
+Grep's a fairly big topic:
+
 ![Grep Book]({{ site.url }}/assets/grep.jpg)
 
 - `grep "some string" filename`
