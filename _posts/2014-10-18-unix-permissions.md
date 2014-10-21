@@ -12,6 +12,7 @@ There are also 3 'tiers' of access allowed: 'Owner', 'Group' & 'Other'
 These 3 different access levels can be represented like this:
 
 Owner: `rwx` Group: `rwx`, Other: `rwx`
+
 This can be shortened to: `rwxrwxrwx`
 
 In the previous example, anyone is able to read, write(edit) or execute(run) the file.
