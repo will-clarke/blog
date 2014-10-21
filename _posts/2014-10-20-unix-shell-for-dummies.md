@@ -9,13 +9,13 @@ These are sorted by 'difficulty' - you should know the first ones first.
 
 ## Navigation
 
-#### `cd` - changes the current directory.
+### `cd` - changes the current directory.
 
 - `cd ~` - changes where you are to HOME directory
 - `cd Documents`  - goes one file deeper into the 'Documents' folder
 - `cd ..` - goes up one directory
 
-#### `ls` - list files or directories in current directory
+### `ls` - list files or directories in current directory
 
 - `ls -la` - uses the options '-l' (list in detail) and '-a' (show hidden files)
 
@@ -23,7 +23,7 @@ These are sorted by 'difficulty' - you should know the first ones first.
 
 ## Copying
 
-#### `cp` - copy
+### `cp` - copy
 
 - `cp anchovy.txt fishes/anchovy.txt` - creates a copy of the file under the 'fishes' directory.
 
@@ -33,15 +33,15 @@ These are sorted by 'difficulty' - you should know the first ones first.
 
 ## Deleting
 
-#### `rm` - remove
+### `rm` - remove
 
 - `rm platypus.txt` - deletes the specified file
 
-#### `rmdir` - remove directory
+### `rmdir` - remove directory
 
 ## Moving / Renaming
 
-#### `mv` - move
+### `mv` - move
 
 - This works like cp, except it removes the initial file / directory
 - `mv anchovy.txt fishes/anchovy.txt` - moves & **removes** the file.
@@ -49,7 +49,7 @@ These are sorted by 'difficulty' - you should know the first ones first.
 
 ## Creating Folders
 
-#### `mkdir` - creates a new directory
+### `mkdir` - creates a new directory
 
 - `mkdir pelicans`
 
@@ -59,49 +59,49 @@ These are sorted by 'difficulty' - you should know the first ones first.
 
 ## Getting help
 
-#### `man` - find the **man**ual
+### `man` - find the **man**ual
 
 - `man man`
 - `man pwd`
 
 ## Showing files
 
-#### `cat` - show pure text version of the file.
+### `cat` - show pure text version of the file.
 
 - Con**cat**enates & prints the file
 `cat gerbil_name.txt` - simply outputs text: 'Fred'
 
-#### `less` - outputs text with more features.
+### `less` - outputs text with more features.
 
 - Better for larger files. Includes scrolling, searching, etc..
 - `less encyclopedia.txt` - won't crash & is still useful
 
-#### `sort` - guess what this one does...
+### `sort` - guess what this one does...
 
 - Go on. Guess. I'm not going to tell you.
 
 ## Comparing files
 
-#### `diff` - shows the **diff**erences between two files
+### `diff` - shows the **diff**erences between two files
 
 - `diff red_spotted_woodpecker.txt lesser_woodpecker.txt`
 
 ## Finding programs
 
-#### `whereis`
+### `whereis`
 
 - Useful if you're running the wrong version of ruby. Or something similar.
 - Provides the location of the executable file.
 
 ## Changing File Permissions
 
-#### `chmod`
+### `chmod`
 
 - A common chmod file permission to set is `chmod 755`, which is `rwx` for the Owner but only `rw` for other users.
 
 ## Search for text
 
-#### `grep`
+### `grep`
 
 I've written a quick primer on UNIX file permissions [here]({{ site.url }}/_posts/2014-10-18-unix-permissions.md)
 
