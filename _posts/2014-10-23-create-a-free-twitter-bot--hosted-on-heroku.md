@@ -15,12 +15,13 @@ Here are the basic steps I took:
 
 ### 2. Register a new Twitter Account
 
-### 3. Create a new Twitter 'app' - go to http://dev.twitter.com/apps
+### 3. Create a new Twitter 'app' - go to [http://dev.twitter.com/apps](http://dev.twitter.com/apps)
 - This will have the ability to control your twitter account on your behalf.
 - Make a note of the API keys.
 
 ### 4. Enable Read / Write Permissions for this App
-- Found under 'Permissions'. If you need an extra mobile number, try [this trick](http://wmmc.github.io/2014/10/22/twitter-apps-authentication--without-another-mobile-number/).
+- Found under 'Permissions'.
+- If you need an extra mobile number, try [this trick](http://wmmc.github.io/2014/10/22/twitter-apps-authentication--without-another-mobile-number/).
 
 ### 5. Write some code which interacts with the Twitter API.
 - Sferik's [twitter gem](https://github.com/sferik/twitter) makes this very easy in Ruby.
@@ -33,10 +34,20 @@ Here are the basic steps I took:
 - The Gemfile lists all the Gems you'll need to install.
 - You may need to run `bundle install` (as usual...)
 
-### 7. Create a new [Heroku App](http://heroku.com).
+### 7. Check you can do what you want from the command line.
+- By running your rake task.
 
-### 8. Push this to Heroku.
+### 8. Create a new [Heroku App](http://heroku.com).
 
-### 9. Add your Environmental Variables to Heroku.
+### 9. Push your current files  to Heroku.
+- This should be a .rb file, a Rakefile, a Gemfile & a Gemfile.lock
+
+### 10. Add [Heroku Scheduler](https://addons.heroku.com/scheduler) to your Heroku app
+- `heroku addons:add scheduler` - the fastest way to add this.
+- This will allow you to customise how often it runs.
+- You can set it to run every 10 minutes if you feel the need...
+- To customise this, you'll need to log into you Heroku Account.
+
+### 11. Add your Environmental Variables to Heroku.
 
 You should be ready to take Twitter by storm now!
