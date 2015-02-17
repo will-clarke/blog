@@ -2,10 +2,10 @@
 layout: post
 title: "Ruby's Object#try method"
 published: true
-tags: [Ruby, Tips]
+tags: [Rails, Ruby, Tips]
 ---
 
-Say you want check a method exists & is not nil before you use it:
+Say you're in Rails and want check that a method exists & that it is not nil:
 
 ``` ruby
 my_object.my_method
@@ -41,8 +41,8 @@ my_object.my_method.my_second_method
 
 And that's using the more concise syntax...
 A better approach would be to use the Object#try method.
-It 'tries' an object's method and, instead of going mental, calmly returns nil
-if that method doesn't work.
+It 'tries' an object's method and, instead of going mental,
+calmly returns nil if that method doesn't work.
 
 ``` ruby
 my_object.try(:my_method)
@@ -54,3 +54,5 @@ This makes the more nested existence-validations read much better:
 ``` ruby
 my_object.try(:my_method).try(:my_second_method)
 ```
+
+If you're using standard ruby, the `#defined?` and `#nil?` methods could help... 
