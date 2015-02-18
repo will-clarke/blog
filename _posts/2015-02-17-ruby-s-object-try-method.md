@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby's Object#try method"
+title: "The Object#try method in Rails"
 published: true
 tags: [Rails, Ruby, Tips]
 ---
