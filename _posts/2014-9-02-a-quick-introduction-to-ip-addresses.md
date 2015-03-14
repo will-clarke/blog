@@ -1,5 +1,6 @@
 ---
 layout: post
+
 title: "A Quick Introduction to IP Addresses"
 published: true
 tags: [IP, DNS]
