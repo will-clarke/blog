@@ -1,10 +1,10 @@
 {% if tags_list.first[0] == null %}
   {% for tag in tags_list %} 
-    <li><a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">{{ tag }} <sup>{{ site.tags[tag].size }}</s></a></li>
+    <li><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }} <sup>{{ site.tags[tag].size }}</s></a></li>
   {% endfor %}
 {% else %}
   {% for tag in tags_list %} 
-    <li><a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag[0] }}">{{ tag[0] }} <sup>{{ tag[1].size }}</sup></a></li>
+    <li><a href="{{ site.baseurl }}/tags#{{ tag[0] }}">{{ tag[0] }} <sup>{{ tag[1].size }}</sup></a></li>
   {% endfor %}
 {% endif %}
 {% assign tags_list = nil %}
