@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               William Clarke's Blog
 tagline:             'wmmc.github.io'
 description:         'Ramblings from <a href="http://wmmclarke.com" target="_blank">William Clarke.'
-url:                 http://wmmc.github.io
+# url:                 http://wmmc.github.io
 baseurl:             /blog
 paginate:            5
 
