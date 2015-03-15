@@ -6,7 +6,9 @@ tags: [Vim, Commands]
 ---
 
 You can see your last commands by:
+
 1. Pressing `:` (which is hopefully mapped to just `;`)
+
 2. `<ctrl-p>` ('previous' in many unix applications)
   You can also press `up` if you find this easier... although you shouldn't...
 

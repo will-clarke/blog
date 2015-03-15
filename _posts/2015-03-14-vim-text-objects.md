@@ -12,15 +12,25 @@ Imagine your cursor is in the middle of a paragraph you want to delete. Instead 
 A list of these is:
 
 `iw`     inner word
+
 `it`     inner xml / html tag
+
 `is`     inner sentence
+
 `i'`     inner single quotation marks
+
 `i"`     inner double quotation marks
+
 `i{`     inner `{ ... }` braces
+
 `i[`     inner `[ ... ]` braces
+
 `i(`     inner `( ... )` braces
+
 `ip`     inner paragraph
-`im`     inner ruby method (from a [plugin](https://github.com/nelstrom/vim-textobj-rubyblock))
+
+`im`     inner ruby method (from the [vim-textobj-rubyblock plugin](https://github.com/nelstrom/vim-textobj-rubyblock))
+
 
 The same commands also work with `a` for **a** (eg. `ca(` will also *change a bracket*, rather than just the contents of them)
 
