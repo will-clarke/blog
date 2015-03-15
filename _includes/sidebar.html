@@ -9,7 +9,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+    <a class="sidebar-nav-item{% if page.url == BASE_PATH %} active{% endif %}" href="{{ BASE_PATH }}">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -20,14 +20,14 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
 
     <a class="sidebar-nav-item" href="http://wmmclarke.com" target="_blank">Website</a>
     <a class="sidebar-nav-item" href="https://twitter.com/wmmclarke" target="_blank">Twitter</a>
-    <a class="sidebar-nav-item" href="{{ site.baseurl }}/assets/William_Clarke.pdf">Download CV</a>
+    <a class="sidebar-nav-item" href="{{ BASE_PATH }}/assets/William_Clarke.pdf">Download CV</a>
     <a class="sidebar-nav-item" href="http://github.com/wmmc" target="_blank">GitHub Projects</a>
   </nav>
 
