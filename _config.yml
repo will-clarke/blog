@@ -1,7 +1,11 @@
 # Dependencies
 markdown:            kramdown
-  input: GFM
 highlighter:         rouge
+kramdown:
+  input: GFM
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: nil
 
 # Permalinks
 #
