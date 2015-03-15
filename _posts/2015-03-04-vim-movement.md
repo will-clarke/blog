@@ -2,7 +2,7 @@
 layout: post
 title: "Vim Movement"
 published: true
-tags: [vim, tips]
+tags: [Vim, Tips]
 ---
 
 There are a load of ways to move around in vim.

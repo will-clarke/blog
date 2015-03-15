@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby - Hash#fetch"
 published: true
-tags: [ruby, hash]
+tags: [Ruby, Hash]
 ---
 
 If you can't be bothered to set a default on a hash, you can always use `Hash#fetch` to specify a default as you go.

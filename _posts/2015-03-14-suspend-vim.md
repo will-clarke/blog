@@ -2,7 +2,7 @@
 layout: post
 title: "Suspend Vim"
 published: true
-tags: [vim, shell]
+tags: [Vim, Shell]
 ---
 
 If you want to suspend vim (or many other unix appications), pressing `ctrl-z`

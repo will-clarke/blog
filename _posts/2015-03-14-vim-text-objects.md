@@ -2,7 +2,7 @@
 layout: post
 title: "Vim Text Objects"
 published: true
-tags: [vim, text]
+tags: [Vim, Text]
 ---
 
 One of the most powerful features in Vim is **text objects**. These increase the number of 'vim nouns' that you can use with 'vim verbs'.
