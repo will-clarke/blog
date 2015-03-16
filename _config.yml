@@ -15,11 +15,11 @@ relative_permalinks: true
 
 # Setup
 title:               William Clarke's Blog
-tagline:             'wmmc.github.io'
-description:         'Ramblings from <a href="http://wmmclarke.com" target="_blank">William Clarke.'
+tagline:             '<a href="http://wmmclarke.com" target="_blank">wmmclarke.com</a>'
+description:         'Ramblings from <a href="http://wmmclarke.com" target="_blank">William Clarke.</a>'
 baseurl:             ''
 url:                 'http://wmmc.github.io'
-paginate:            5
+paginate:            10
 
 # About/contact
 author:
