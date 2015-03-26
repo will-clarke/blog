@@ -15,7 +15,7 @@ relative_permalinks: true
 
 # Setup
 title:               William Clarke's Blog
-tagline:             '<a href="http://wmmclarke.com" target="_blank">wmmclarke.com</a>'
+tagline:             '<a href="http://wmmclarke.com" >wmmclarke.com</a>'
 description:         'Ramblings from <a href="http://wmmclarke.com" target="_blank">William Clarke.</a>'
 baseurl:             ''
 url:                 'http://wmmc.github.io'
