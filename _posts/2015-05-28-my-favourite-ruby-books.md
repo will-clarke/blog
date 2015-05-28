@@ -8,7 +8,7 @@ tags: [Ruby, Books]
 <div style="float:right" markdown="1">
 [![Pickaxe Guide](http://ecx.images-amazon.com/images/I/41gtODXuRlL._AA160_.jpg)](http://www.amazon.co.uk/Programming-Ruby-1-9-2-0-Programmers/dp/1937785491/?tag=wilclasblo-21)
 </div>
-### [Programming Ruby 1.9 & 2.0: The Pragmatic Programmers' Guide](http://www.amazon.co.uk/Programming-Ruby-1-9-2-0-Programmers/dp/1937785491/?tag=wilclasblo-21)
+###[Programming Ruby 1.9 & 2.0: The Pragmatic Programmers' Guide](http://www.amazon.co.uk/Programming-Ruby-1-9-2-0-Programmers/dp/1937785491/?tag=wilclasblo-21)
 by [Dave Thomas](https://twitter.com/pragdave), [Andy Hunt](https://twitter.com/PragmaticAndy) & [Chad Fowler](https://twitter.com/chadfowler)
 
 The 'pixaxe' book is a complete overview to Ruby. It's a pretty hefty book, covering these topics:
@@ -20,7 +20,7 @@ The 'pixaxe' book is a complete overview to Ruby. It's a pretty hefty book, cove
 <div style="float:right" markdown="1">
 [![POODR](http://ecx.images-amazon.com/images/I/51U-Wi%2BkYvL._AA160_.jpg)](http://www.amazon.co.uk/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C?tag=wilclasblo-21)
 </div>
-### [Practical Object Oriented Design in Ruby: An Agile Primer](http://www.amazon.co.uk/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C?tag=wilclasblo-21)
+###[Practical Object Oriented Design in Ruby: An Agile Primer](http://www.amazon.co.uk/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C?tag=wilclasblo-21)
 by [Sandi Metz](https://twitter.com/sandimetz)
 
 Ruby likes objects and 'POODR' shows how to make the most of them.
@@ -31,7 +31,7 @@ We see the world in objects, and I think that code usually makes more sense in o
 <div style="float:right" markdown="1">
 [![Rails](http://ecx.images-amazon.com/images/I/51qiS5gf-HL._AA160_.jpg)](http://www.amazon.co.uk/Ruby-Rails-Tutorial-Addison-Wesley-Professional/dp/0134077709/?tag=wilclasblo-21)
 </div>
-### [Ruby on Rails Tutorial: Learn Web Development with Rails](http://www.amazon.co.uk/Ruby-Rails-Tutorial-Addison-Wesley-Professional/dp/0134077709/?tag=wilclasblo-21)
+###[Ruby on Rails Tutorial: Learn Web Development with Rails](http://www.amazon.co.uk/Ruby-Rails-Tutorial-Addison-Wesley-Professional/dp/0134077709/?tag=wilclasblo-21)
 by [Michael Hartl](https://twitter.com/mhartl)
 
 This is a great introduction to Rails. It starts slow enough for complete n0obs, but has enough depth
@@ -42,7 +42,7 @@ There is also a free, online version of the book [here](https://www.railstutoria
 <div style="float:right" markdown="1">
 [![Eloquent Ruby](http://ecx.images-amazon.com/images/I/41IDuwJXFCL._AA160_.jpg)](http://www.amazon.co.uk/Eloquent-Ruby-Addison-Wesley-Professional-Series/dp/0321584104/?tag=wilclasblo-21)
 </div>
-### [Eloquent Ruby](http://www.amazon.co.uk/Eloquent-Ruby-Addison-Wesley-Professional-Series/dp/0321584104/?tag=wilclasblo-21)
+###[Eloquent Ruby](http://www.amazon.co.uk/Eloquent-Ruby-Addison-Wesley-Professional-Series/dp/0321584104/?tag=wilclasblo-21)
 by [Russ Olsen](https://twitter.com/russolsen)
 
 One of the best things about Ruby is its expressiveness and elegance.
