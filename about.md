@@ -19,4 +19,3 @@ I am eager to learn much more about software development.
 - [*Even* more self-promotional Website](http://wmmclarke.com)
 - [Email](mailto:wmmclarke@gmail.com)
 - [Twitter](http://twitter.com/wmmclarke)
-- [CV]({{ site.url }}/assets/William_Clarke.doc)
