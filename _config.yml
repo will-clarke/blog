@@ -1,24 +1,22 @@
 # Dependencies
 markdown:            kramdown
 highlighter:         pygments
-kramdown:
-  input: GFM
-  use_coderay: true
-  coderay:
-    coderay_line_numbers: nil
+
+syntax_highlighter: coderay
+
+plugins: [jekyll-paginate]
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               William Clarke's Blog
 tagline:             '<a href="http://wmmclarke.com" >wmmclarke.com</a>'
 description:         'Ramblings from <a href="http://wmmclarke.com" target="_blank">William Clarke.</a>'
 baseurl:             ''
-url:                 'http://wmmc.github.io'
+url:                 'http://blog.wmmclarke.com'
 paginate:            10
 
 # About/contact

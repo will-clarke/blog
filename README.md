@@ -9,4 +9,5 @@ Follow the instructions here: https://jekyllrb.com/docs/
 
 TL;DR:
 `gem install jekyll bundler`
+`bundle install `
 `bundle exec jekyll serve`
